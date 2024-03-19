@@ -24,7 +24,7 @@ public class Main {
 
         for (Thread thread : threadList) {
             thread.join();  // зависаем, ждём когда поток,
-                            // объект которого лежит в thread, завершится
+            // объект которого лежит в thread, завершится
         }
 
         long endTs = System.currentTimeMillis(); // end time
